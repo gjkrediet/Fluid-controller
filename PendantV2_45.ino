@@ -118,13 +118,13 @@ const int powerOffTime = 60;
 bool powerOffNow = false;
 
 String name = "FluidNC";
-//String name = "btgrblesp";
+//String name = "btgrblesp"; //for grbl_esp
 //uint8_t address[6]  = {0xA5, 0xFE, 0x06, 0x00, 0xFF, 0xFF};
 //uint8_t address[6] = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
 //uint8_t address[6] = {0xC8, 0xC9, 0xA3, 0xD2, 0xA5, 0xFE};
 bool btConnected;
-const char *ssid = "TWICKEL2.4";
-const char *password = "Ahkvdmdp";
+const char *ssid = "yourssid";
+const char *password = "yourpass";
 
 
 char jogStr[MAX_JOGSTR];
@@ -352,6 +352,10 @@ int checkJoystick() {
       //      if (sX>=sY) sY=0; else sX=0; //alleen via X of via Y bewegen
       if (sZ) speedXYZ = sZ;
       else speedXYZ = sqrt(sX * sX + sY * sY);
+      
+      // the timing and speed for jogging is configured through trial and error and will likely be different for each individual machine.
+      // it depends in part on the acceleration and max-speeds
+      
       distX = ((jogSpeedMax - sX) / 200000000 + 0.000018) * sX * (rdX ? (rdX < 0 ? -1 : 1) : 0) * tExec;
       distY = ((jogSpeedMax - sY) / 200000000 + 0.000018) * sY * (rdY ? (rdY < 0 ? -1 : 1) : 0) * tExec;
       distZ = ((jogSpeedMax - sZ) / 200000000 + 0.000018) * sZ * (rdZ ? (rdZ < 0 ? -1 : 1) : 0) * tExec;
@@ -566,12 +570,12 @@ void loop() {
     }
     if (buttonYELLOW.isLongClick() ) {
       activeTimer(true);
-      if (mState == Door && pState == Pendant) { //Alleen resetten vanuit de pemdant-state en niet vanuit menu
+      if (mState == Door && pState == Pendant) {
         btWrite(24); //Reset
         getGrblState(false);
       } else {
         btWrite(24); //Eerst een reset
-        btPrintln((char *)"$X"); //als er een alarm hangt accepteert de controller geen commando's meer, dus dat eerst oplossen met unlock
+        btPrintln((char *)"$X");
         btWrite(132); //Door
         pState = Pendant;
         getGrblState(false);
@@ -675,7 +679,7 @@ void loop() {
             //            Serial.println("Restore origin");
             pState = Pendant;
             tftUpdate(true);
-            btPrintln((char *)"$J=G53Z0F1000");  //Spindle optrekken
+            btPrintln((char *)"$J=G53Z0F1000");
             delay(100);
             waitEndJog();
             btPrintln((char *)"$J=X0 Y0 F5000");
