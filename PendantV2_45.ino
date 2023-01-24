@@ -112,7 +112,7 @@ rotorDestin rState = RotJogspeed;
 joystickDestin jState = jsXYaxis;
 
 const int maxMenu = 12;
-const int jogSpeedMax = 5000; //dit moet gelijk lopen met de settings in config.yaml
+const int jogSpeedMax = 5000; //this should reflect settings in config.yaml
 static char mStateStr[][11] { "? ?", "ALARM", "IDLE", "JOG", "HOME", "CHECK", "RUN", "CYCLE", "HOLD", "SAFE", "SLEEP" };
 const int powerOffTime = 60;
 bool powerOffNow = false;
@@ -141,7 +141,7 @@ int rdX = 0, rdY = 0, rdZ = 0, multXYZ = 0;
 int calibrateX, calibrateY;
 float mX, mY, mZ;  //Machine positions
 float wX, wY, wZ;  //Work positions
-RTC_DATA_ATTR int jogSpeed = 1000; //Overleeft een herstart vanuit sleep
+RTC_DATA_ATTR int jogSpeed = 1000;
 int jogSpeedDisp = 0, setSpindleSpeed = 3000, spindleDisp = -1;
 int reportedSpindleSpeed = 0;
 int ovSpeed = 0, ovFeed = 0, ovRapid = 0;
@@ -160,7 +160,7 @@ void setup() {
   EEPROM.begin(EEPROM_SIZE);
   pinMode(ADC_EN, OUTPUT);
   digitalWrite(ADC_EN, HIGH);
-  analogReadResolution(9);  //minimum is 9 bits dus waarden 0 en 512;
+  analogReadResolution(9);  //minimum is 9 bits. values between 0 and 512;
   backLight = EEPROM.read(0) % 16;
   if (backLight < 1) backLight = 1;
   tft.init();
@@ -349,7 +349,7 @@ int checkJoystick() {
       sX = abs(rdX * rdX) * multXYZ;
       sY = abs(rdY * rdY) * multXYZ;
       sZ = abs(rdZ * rdZ) * multXYZ;
-      //      if (sX>=sY) sY=0; else sX=0; //alleen via X of via Y bewegen
+      //      if (sX>=sY) sY=0; else sX=0; //uncomment this if you don't want diagonal moves
       if (sZ) speedXYZ = sZ;
       else speedXYZ = sqrt(sX * sX + sY * sY);
       
@@ -675,7 +675,7 @@ void loop() {
             btPrintln((char *)"G90");
             pState = Pendant;
             break;
-          case gawxy0:  //naar wXY=0
+          case gawxy0:  //goto wXY=0
             //            Serial.println("Restore origin");
             pState = Pendant;
             tftUpdate(true);
@@ -715,7 +715,7 @@ void loop() {
     }
   } else {
   }
-  //  Serial.print("."); //Check of er puntjes overblijven in de loop
+  //  Serial.print(".");
 }
 
 void printAxisCoords(float m, float w, byte row) {
@@ -793,8 +793,8 @@ void tftPrintButton(int bc, int tc, byte col, byte row, byte len, String txt) {
 
 
 void tftUpdate(bool force) {
-  static float mXdisp = 0, mYdisp = 0, mZdisp = 0;  //Getoonde machine positions
-  static float wXdisp = 0, wYdisp = 0, wZdisp = 0;  //Getoonde work positions
+  static float mXdisp = 0, mYdisp = 0, mZdisp = 0;  // machine position
+  static float wXdisp = 0, wYdisp = 0, wZdisp = 0;  // work position
   static byte menuChoiceDisp = -1, mStateDisp = -1, blDisp = 0;
   static int reportedSpindleSpeedDisp = 0, setSpindleSpeedDisp = 0, battVoltDisp = 0;
   static int ovSpeedDisp = 0, ovFeedDisp = 0, ovRapidDisp = 0;
