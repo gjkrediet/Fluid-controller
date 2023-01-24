@@ -70,7 +70,7 @@ translate ([0,7,0]) difference() {
 
 }
 //deksel 3mm dik
-*union() {
+union() {
 translate ([0,7,9.5]) rotate([0,0,180]) difference() {
     union() {
 //delsel opdek deel
