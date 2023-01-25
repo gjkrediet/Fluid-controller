@@ -1,7 +1,7 @@
 # Fluid-controller
 A wireless battery powered pendant for FluidNC based on esp32
 
-I will add a description soon
+I will update the description in the next weeks
 
 # hardware
 1. LilyGO TTGO T-Display V1.1 which is a developmentboard with an ESP32, with a built-in tft (IPS) display and battery-charger. I purchased it for about €13 from internet.
