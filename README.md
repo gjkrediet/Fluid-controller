@@ -8,7 +8,7 @@ I will update the description in the next weeks
 Display shows: 
 Machine coördinates, Work coördinates, Spindle speed and state, Set speed and step size when using joystick and rotation encoder, Overrides (Speed, Feed, Rapid),	Machine state, Battery state, Current buttons functions
 
-Main functions buttons, joystick and rotary knob: 
+Main functions buttons, joystick and dial: 
 Wake up, Jog gantry and spindle via joystick and/or dial, Set Jog step size and speed via dial, Set spindle speed and switch on/off,	Set overrides (Speed, Feed, Rapid),	Cancel/abort job.
 
 Main functions menu: 
@@ -16,11 +16,12 @@ Home machine, Zero workcoördinates, Go to zero, Probe.
 
 # Hardware
 1. LilyGO TTGO T-Display V1.1 which is a developmentboard with an ESP32, with a built-in tft (IPS) display and battery-charger. I purchased it for about €13 from internet.
-2. Rotary encoder (about €1)
+2. Rotary encoder / dial (about €1)
 3. Three simple colored buttons NO (total of €2)
 4. PSP joystick (about €3)
 5. Lion 18650 battery (€7)
 6. Single-sided pcb
+7. PLA (25 meter)
 
 # Schematic and PCB
 
@@ -41,6 +42,8 @@ The joystick is connected tot J2 with J2.2 unconnected (since I later decided to
 # Assembly
 
 Schematic drawing of the lid with positioning of the components (excl. battery).
+
+Female headers and the rotary encoder are soldered on the pcb. The other components are connected to the PCB with wires. Plus and minus wires are directly soldered to the battery and connected to the TTGO with a JST-connector.
 
 ![afbeelding](https://user-images.githubusercontent.com/20277013/214533466-feb4534e-7402-42ab-9b6a-d86a29457133.png)
 
