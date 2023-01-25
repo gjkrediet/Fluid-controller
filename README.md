@@ -35,5 +35,5 @@ Schematic drawing of the lid with positioning of the components (excl. battery).
 
 ![inside1](https://user-images.githubusercontent.com/20277013/214524701-8da7550d-7ca5-4af7-9b36-db64cc68cfa0.jpg)
 
-To further reduce the powerconsumption I decided to feed the joystick via an outputpin of the esp32. 
+To further reduce the powerconsumption I decided to feed the joystick via an outputpin of the esp32, which is why you see the red wire soldered on later. 
 ![inside2](https://user-images.githubusercontent.com/20277013/214524742-b8a347a4-dc82-47c2-a12c-f6e3894d6a2d.jpg)
