@@ -4,15 +4,17 @@ A wireless battery powered pendant for FluidNC based on esp32
 ![20230125_140826](https://user-images.githubusercontent.com/20277013/214572050-37decb40-87fa-4ef0-94c6-3ae00d252642.jpg)
 
 I will update the description in the next weeks
-# main functions
+# Main functions
 Display shows: 
 Machine coördinates, Work coördinates, Spindle speed and state, Step size and speed for joystick and rotation encoder, Overrides (Speed, Feed, Rapid),	Machine state, Battery state, Current buttons functions
+
 Main functions buttons, joystick and rotary knob: 
 Wake up, Jog gantry and spindle via joystick and/or dial, Set Jog step size and speed via dial, Set spindle speed and switch on/off,	Set overrides (Speed, Feed, Rapid),	Cancel/abort job.
+
 Main functions menu: 
 Home machine, Zero workcoördinates, Go to zero, Probe.
 
-# hardware
+# Hardware
 1. LilyGO TTGO T-Display V1.1 which is a developmentboard with an ESP32, with a built-in tft (IPS) display and battery-charger. I purchased it for about €13 from internet.
 2. Rotary encoder (about €1)
 3. Three simple colored buttons NO (total of €2)
