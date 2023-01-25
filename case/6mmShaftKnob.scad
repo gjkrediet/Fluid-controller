@@ -1,3 +1,5 @@
+// copied and adapted from https://www.thingiverse.com/brunobruno
+
 shaft_height = 8;
 shaft_depth = 10;
 
