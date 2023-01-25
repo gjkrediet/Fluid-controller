@@ -15,6 +15,8 @@ I will update the description in the next weeks
 # PCB
 
 ...
+![afbeelding](https://user-images.githubusercontent.com/20277013/214533466-feb4534e-7402-42ab-9b6a-d86a29457133.png)
+
 
 # Programming
 
