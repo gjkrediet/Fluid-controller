@@ -13,10 +13,12 @@ I will update the description in the next weeks
 5. Lion 18650 battery (€7)
 6. Single-sided pcb
 
-# PCB
+# Schematic and PCB
 
-...
+The pcb only holds the TTGO developmentboard and the rotary-encoder. The other components are mounted on the lid and wired to the pcb. The schematic of the pcb (in Kicad) is therefore very simple. The isolation-routing of the PCB was done on the very CNC-router I made this controller for.
 
+The three buttons have common ground (J1.1) and are connected tot J1.2, J1.3 and J1.4 respectively.
+The joystick is connected tot J2 with J2.2 unconnected (since I later decided to wire the VCC of the joystick tot an output-pin).
 
 # Programming
 
@@ -37,3 +39,5 @@ Schematic drawing of the lid with positioning of the components (excl. battery).
 
 To further reduce the powerconsumption I decided to feed the joystick via an outputpin of the esp32, which is why you see the red wire soldered on later. 
 ![inside2](https://user-images.githubusercontent.com/20277013/214524742-b8a347a4-dc82-47c2-a12c-f6e3894d6a2d.jpg)
+
+The battery is wired to the JST-connector on the TTGO
