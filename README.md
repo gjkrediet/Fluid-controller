@@ -12,11 +12,20 @@ I will update the description in the next weeks
 5. Lion 18650 battery (€7)
 6. Single-sided pcb
 
+# PCB
+
+...
+
+# Programming
+
+...
+
 # Case
 
 <img width="300" alt="pendantV2lid_case" src="https://user-images.githubusercontent.com/20277013/214523140-5201f1c7-178f-416e-b6da-9f014d2a72d5.png">
 
-# Endresult
+
+# Assembly
 
 ![inside1](https://user-images.githubusercontent.com/20277013/214524701-8da7550d-7ca5-4af7-9b36-db64cc68cfa0.jpg)
 
