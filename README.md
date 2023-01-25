@@ -27,6 +27,7 @@ The joystick is connected tot J2 with J2.2 unconnected (since I later decided to
 # Case
 
 <img width="406" alt="pendantV2case_lid2" src="https://user-images.githubusercontent.com/20277013/214568520-32bf0ae3-2ae2-4814-8294-004ee3288210.png">
+<img width="728" alt="pendantV2lid_case" src="https://user-images.githubusercontent.com/20277013/214569853-148361ff-8502-4101-a813-27276ca49ef0.png">
 
 # Assembly
 
