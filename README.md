@@ -1,7 +1,7 @@
 # Fluid-controller
 A wireless battery powered pendant for FluidNC based on esp32
 
-![endresult](https://user-images.githubusercontent.com/20277013/214570873-f528bad6-095d-4091-a138-f1f470e4c330.jpg)
+![20230125_140826](https://user-images.githubusercontent.com/20277013/214572050-37decb40-87fa-4ef0-94c6-3ae00d252642.jpg)
 
 
 I will update the description in the next weeks
