@@ -43,13 +43,14 @@ The joystick is connected tot J2 with J2.2 unconnected (since I later decided to
 
 Schematic drawing of the lid with positioning of the components (excl. battery).
 
-Female headers and the rotary encoder are soldered on the pcb. The other components are connected to the PCB with wires. Plus and minus wires are directly soldered to the battery and connected to the TTGO with a JST-connector.
-
 ![afbeelding](https://user-images.githubusercontent.com/20277013/214533466-feb4534e-7402-42ab-9b6a-d86a29457133.png)
+
+Female headers and the rotary encoder are soldered on the pcb. The other components are connected to the PCB with wires. Plus and minus wires are directly soldered to the battery and connected to the TTGO with a JST-connector.
 
 ![inside1](https://user-images.githubusercontent.com/20277013/214524701-8da7550d-7ca5-4af7-9b36-db64cc68cfa0.jpg)
 
-To further reduce the powerconsumption I decided to feed the joystick via an outputpin of the esp32, which is why you see the red wire soldered on later. 
+To further reduce the powerconsumption I decided to feed the joystick via an outputpin of the esp32, which is why you see the red wire soldered on later.
+
 ![inside2](https://user-images.githubusercontent.com/20277013/214524742-b8a347a4-dc82-47c2-a12c-f6e3894d6a2d.jpg)
 
 The battery is wired to the JST-connector on the TTGO
