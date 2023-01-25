@@ -15,7 +15,6 @@ I will update the description in the next weeks
 # PCB
 
 ...
-![afbeelding](https://user-images.githubusercontent.com/20277013/214533466-feb4534e-7402-42ab-9b6a-d86a29457133.png)
 
 
 # Programming
@@ -28,6 +27,10 @@ I will update the description in the next weeks
 
 
 # Assembly
+
+Schematic drawing of the lid with positioning of the cpmponents (excl. battery).
+
+![afbeelding](https://user-images.githubusercontent.com/20277013/214533466-feb4534e-7402-42ab-9b6a-d86a29457133.png)
 
 ![inside1](https://user-images.githubusercontent.com/20277013/214524701-8da7550d-7ca5-4af7-9b36-db64cc68cfa0.jpg)
 
