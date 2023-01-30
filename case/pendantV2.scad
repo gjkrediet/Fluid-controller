@@ -6,6 +6,7 @@ $h1=19;
 $d=6;
 $dbat=20;
 
+//remove the %-sign befor the next line to remove transparency
 %union() {
     difference() {
         hull() {
@@ -72,6 +73,7 @@ $dbat=20;
 }
 
 //deksel 3mm dik
+//put a %-sign before the next line to make it transparent
 translate ([0,14,0]) rotate ([0,0,180]) union() {
     translate ([0,7,9.5]) rotate([0,0,0]) difference() {
         union() {
