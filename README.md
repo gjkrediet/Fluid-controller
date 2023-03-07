@@ -3,7 +3,7 @@ A wireless battery powered pendant for FluidNC based on esp32
 
 ![20230125_140826](https://user-images.githubusercontent.com/20277013/214572050-37decb40-87fa-4ef0-94c6-3ae00d252642.jpg)
 
-I will update the description in the next weeks
+
 # Main functions
 Display shows: 
 Machine coördinates, Work coördinates, Spindle speed and state, Set speed and step size when using joystick and rotation encoder, Overrides (Speed, Feed, Rapid),	Machine state, Battery state, Current buttons functions
