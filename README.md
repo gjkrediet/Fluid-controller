@@ -72,7 +72,7 @@ The pendant can either be in home-state (PH) or menu-state (PM).
 
 Function of the dial-knob can be changed by rotating the dial while pressing BG.
 
-Functions can be (default is DJ):
+Functions can be (default is DJ; function is indicated on the display with a blue circle):
 - DX: Jog 1 step X-axis
 - DY: Jog 1 step Y-axis
 -	DZ: Jog 1 step Z-axis
