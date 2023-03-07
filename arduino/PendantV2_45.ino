@@ -123,8 +123,8 @@ String name = "FluidNC";
 //uint8_t address[6] = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
 //uint8_t address[6] = {0xC8, 0xC9, 0xA3, 0xD2, 0xA5, 0xFE};
 bool btConnected;
-const char *ssid = "TWICKEL2.4";
-const char *password = "Ahkvdmdp";
+const char *ssid = "yourssid";
+const char *password = "yourpassword";
 
 
 char jogStr[MAX_JOGSTR];
