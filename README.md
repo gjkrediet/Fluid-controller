@@ -82,7 +82,7 @@ Functions can be (default is DJ; function is indicated on the display with a blu
 -	DOS: set override Speed
 -	DOR: set override Rapid
 
-The function of the buttons depend on the machine-state (MS, shown in the middle of the display of the pendant)
+The function of the buttons depend on the machine-state (MS, shown in the middle of the display of the pendant; function of BR, BG, BY shown on the bottom line of the display). They are as follows.
 
 PH:
   -	JS + MS=Idle or MS=Jog:
