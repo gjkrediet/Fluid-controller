@@ -93,7 +93,6 @@ PH:
     -	–
   -	BG: enter PM
   -	BY: abort machine-operation
-  -	BG: enter PM
   -	BG (keep pressed) + BD: Change function dial-knob
   -	BR + MS=Alarm: Unlock Machine
   -	BR + DS: Spindle on/off
