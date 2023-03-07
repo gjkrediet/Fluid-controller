@@ -90,7 +90,7 @@ PH:
     -	Left/Right: jog X-axis
   -	JS + MS=Idle or MS=Jog + BR (long-press)
     -	Up/down: jog Z-axis
-    -	–
+    -	Left/Right: no function
   -	BG: enter PM
   -	BY: abort machine-operation
   -	BG (keep pressed) + BD: Change function dial-knob
