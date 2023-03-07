@@ -54,3 +54,49 @@ To further reduce the powerconsumption I decided to feed the joystick via an out
 ![inside2](https://user-images.githubusercontent.com/20277013/214524742-b8a347a4-dc82-47c2-a12c-f6e3894d6a2d.jpg)
 
 The battery is wired to the JST-connector on the TTGO
+
+# How to operate
+
+The functions of the pendant were tailored to my needs. Below an oversight of the functions of the various buttons and button-combinations and the menu-options. It might be somewhat cryptic but I hope it may help.
+
+JS=Joystick, BD=dial, BR=red button, BG=green button, BY=yellow button
+
+Switch the pendant on: press JS
+
+Reset the pendant: press JS
+
+The pendant powers off after some time when idle or via the appropriate menu-option.
+
+
+The pendant can either be in home-state (PH) or menu-state (PM)
+Function of the dial-knob can be changed by rotating the dial while pressing BG.
+Functions can be (default is DJ):
+- DX: Jog 1 step X-axis
+- DY: Jog 1 step Y-axis
+-	DZ: Jog 1 step Z-axis
+-	DS: Set spindle-speed
+-	DJ: set jogspeed and step-size
+-	DOF: set override Feed
+-	DOS: set override Speed
+-	DOR: set override Rapid
+
+The function of the buttons depend on the machine-state (MS, shown in the middle of the display of the pendant)
+PH:
+  -	JS + MS=Idle or MS=Jog:
+    -	Up/down: jog Y-axis
+    -	Left/Right: jog X-axis
+  -	JS + MS=Idle or MS=Jog + BR
+    -	Up/down: jog Z-axis
+    -	–
+  -	BG: enter PM
+  -	BY: abort machine-operation
+  -	BG: enter PM
+  -	BG (keep pressed) + BD: Change function dial-knob
+  -	BR + MS=Alarm: Unlock Machine
+  -	BR + DS: Spindle on/off
+PM:
+  -	BD: navigate menu (poweroff, spindlespeed, spindle on/off, small/large steps for changing jogspeed/stepsize, exit menu, home the machine, Set current Work XY-position to zero, Set current Work Z-position to zero, Probe Z-axis, Jog machine to XY-position zero, unlock Machine (grbl), reset Machine (grbl), Set and save brightness).
+  -	BG: confirm menu-choice
+  -	BR: Cancel
+  -	BR (long press): poweroff
+
