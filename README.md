@@ -32,7 +32,9 @@ The joystick is connected tot J2 with J2.2 unconnected (since I later decided to
 
 # Programming
 
-...
+Programming is done in Arduino IDE. All code exists in one single file. Most constants are enumerated or set with defines at the beginning. I hope it will explaine itself to some extent.
+
+Compile with partition scheme minimal SPIFFS or it will not fit.
 
 # Case
 
