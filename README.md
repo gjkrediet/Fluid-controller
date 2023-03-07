@@ -95,7 +95,7 @@ PH:
   -	BY: abort machine-operation
   -	BG (keep pressed) + BD: Change function dial-knob
   -	BR + MS=Alarm: Unlock Machine
-  -	BR + DS: Spindle on/off
+  -	BR + DOS: Spindle on/off
 
 PM:
   -	BD: navigate menu (poweroff, spindlespeed, spindle on/off, small/large steps for changing jogspeed/stepsize, exit menu, home the machine, Set current Work XY-position to zero, Set current Work Z-position to zero, Probe Z-axis, Jog machine to XY-position zero, unlock Machine (grbl), reset Machine (grbl), Set and save brightness).
