@@ -68,8 +68,10 @@ Reset the pendant: press JS
 The pendant powers off after some time when idle or via the appropriate menu-option.
 
 
-The pendant can either be in home-state (PH) or menu-state (PM)
+The pendant can either be in home-state (PH) or menu-state (PM).
+
 Function of the dial-knob can be changed by rotating the dial while pressing BG.
+
 Functions can be (default is DJ):
 - DX: Jog 1 step X-axis
 - DY: Jog 1 step Y-axis
@@ -81,6 +83,7 @@ Functions can be (default is DJ):
 -	DOR: set override Rapid
 
 The function of the buttons depend on the machine-state (MS, shown in the middle of the display of the pendant)
+
 PH:
   -	JS + MS=Idle or MS=Jog:
     -	Up/down: jog Y-axis
@@ -94,6 +97,7 @@ PH:
   -	BG (keep pressed) + BD: Change function dial-knob
   -	BR + MS=Alarm: Unlock Machine
   -	BR + DS: Spindle on/off
+
 PM:
   -	BD: navigate menu (poweroff, spindlespeed, spindle on/off, small/large steps for changing jogspeed/stepsize, exit menu, home the machine, Set current Work XY-position to zero, Set current Work Z-position to zero, Probe Z-axis, Jog machine to XY-position zero, unlock Machine (grbl), reset Machine (grbl), Set and save brightness).
   -	BG: confirm menu-choice
