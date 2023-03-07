@@ -88,7 +88,7 @@ PH:
   -	JS + MS=Idle or MS=Jog:
     -	Up/down: jog Y-axis
     -	Left/Right: jog X-axis
-  -	JS + MS=Idle or MS=Jog + BR (long-press)
+  -	JS + MS=Idle or MS=Jog + BR (keep pressed)
     -	Up/down: jog Z-axis
     -	Left/Right: no function
   -	BG: enter PM
