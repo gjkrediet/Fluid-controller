@@ -21,7 +21,8 @@ Home machine, Zero workcoördinates, Go to zero, Probe.
 4. PSP joystick (about €3)
 5. Lion 18650 battery (€7)
 6. Single-sided pcb
-7. PLA (25 meter)
+7. some pieces of wire (preferably different colors) of which five have female dupont-connectors
+8. PLA (25 meter)
 
 # Schematic and PCB
 
