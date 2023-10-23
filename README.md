@@ -17,16 +17,17 @@ Home machine, Zero workcoördinates, Go to zero, Probe.
 # Hardware
 1. LilyGO TTGO T-Display V1.1 which is a developmentboard with an ESP32, with a built-in tft (IPS) display and battery-charger. I purchased it for about €13 from internet.
 2. Rotary encoder / dial (about €1)
-3. Three simple colored buttons NO (total of €2)
+3. Three colored buttons NO (total of €2)
 4. PSP joystick (about €3)
 5. Lion 18650 battery (€7)
 6. Single-sided pcb
 7. some pieces of wire (preferably different colors) of which five have female dupont-connectors
 8. PLA (25 meter)
+9. 8 screws M3 x 8
 
 # Schematic and PCB
 
-The pcb only holds the TTGO developmentboard and the rotary-encoder. The other components are mounted on the lid and wired to the pcb. The schematic of the pcb (in Kicad) is therefore very simple. The isolation-routing of the PCB was done with the very same CNC-router I made this controller for. To fit in the joystick, a corner of the PCB had to be sawed of (of course I shoud have done this in Kicad but forgot to).
+The pcb only holds the TTGO developmentboard and the rotary-encoder. The other components are mounted on the lid and wired to the pcb. The schematic of the pcb (in Kicad) is therefore very simple. The isolation-routing of the PCB was done with the very same CNC-router I made this controller for. To fit in the joystick, a corner of the PCB had to be sawed of (I since then updated the edge-cuts so now it should be OK).
 
 The three buttons are at one side connected to the ground (all to J1.1) and are connected tot J1.2, J1.3 and J1.4 respectively.
 The joystick is connected tot J2 with J2.2 unconnected (since I later decided to wire the VCC of the joystick tot an output-pin).
