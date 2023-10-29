@@ -108,4 +108,4 @@ PM:
   -	BR (long press): poweroff
 
 ## OTA
-Powering on the pendant while keeping the the red button pressed will start Wifi and activate OTA (Over The Air programming from within Arduino).
+Powering on the pendant while keeping the the red button pressed will start Wifi and activate OTA (Over The Air programming from within the Arduino IDE).
