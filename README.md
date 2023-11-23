@@ -3,6 +3,7 @@ A wireless battery powered pendant for FluidNC based on esp32
 
 ![20230125_140826](https://user-images.githubusercontent.com/20277013/214572050-37decb40-87fa-4ef0-94c6-3ae00d252642.jpg)
 
+This controller uses bluetooth for communication. Be aware that bluetooth and wifi can not be used at the same time and, in fact, need different fluid-nc firmwares.  Sardar Azari seems to have adapted the controller to communicate via tcp. Take a look at https://github.com/AC8L/FluidNC-Pendant
 
 # Main functions
 Display shows: 
