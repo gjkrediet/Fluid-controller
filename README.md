@@ -28,7 +28,7 @@ Home machine, Zero workcoördinates, Go to zero, Probe.
 
 # Schematic and PCB
 
-The pcb only holds the TTGO developmentboard and the rotary-encoder. The other components are mounted on the lid and wired to the pcb. The schematic of the pcb (in Kicad) is therefore very simple. The isolation-routing of the PCB was done with the very same CNC-router I made this controller for. To fit in the joystick, a corner of the PCB had to be sawed of (I since then updated the edge-cuts so now it should be OK).
+The pcb only holds the TTGO developmentboard and the rotary-encoder. The other components are mounted on the lid and wired to the pcb. The schematic of the pcb (in Kicad) is therefore very simple. The isolation-routing of the PCB was done with the very same CNC-router I made this controller for. To fit in the joystick, a corner of the PCB had to be sawed of (I since then updated the edge-cuts in Kicad so now the design should be OK).
 
 The three buttons are at one side connected to the ground (all to J1.1) and are connected tot J1.2, J1.3 and J1.4 respectively.
 The joystick is connected tot J2 with J2.2 unconnected (since I later decided to wire the VCC of the joystick tot an output-pin).
